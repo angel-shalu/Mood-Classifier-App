@@ -100,17 +100,22 @@ The model predicts the mood and displays:
 Recent predictions are saved for reference in the sidebar.
 
 
-# 🖼️ App Pages
+# 🖼️ App Interface
+🏠 Home
 
-Page	Description
+Overview and description of the app.
 
-🏠 Home	Welcome screen with app overview
+📷 Mood Detection
 
-📷 Mood Detection	Upload or capture an image and get predictions
+Upload or capture an image and predict mood.
 
-🖼️ Dataset Samples	Browse example training images
+🖼️ Dataset Samples
 
-⚙️ Model Info	Manage weights and view model details
+Displays example images from the local dataset folders.
+
+⚙️ Model Info
+
+Manage model weights (upload/reload) and view model details.
 
 
 # 📦 requirements.txt
@@ -149,35 +154,33 @@ trainning/
 
 # 🔍 Model Information
 
-Property	Description
+Type: Binary Image Classifier
 
-Model Type	Binary Image Classifier
+Classes: Happy 😄 / Not Happy 😐
 
-Classes	Happy, Not Happy
+Framework: TensorFlow / Keras (inside model.py)
 
-Input	Face or portrait image
+Input: Portrait or face image
 
-Output	Predicted class + confidence score
+Output: Label + Confidence Score
 
-Threshold	0.5 (binary decision boundary)
+Decision Threshold: 0.5
 
 
 # 💡 Future Enhancements
 
-✨ Add support for multi-emotion classification (e.g., sad, angry, surprised)
+Add more emotion categories (e.g., Angry, Surprised, Neutral)
 
-✨ Integrate OpenCV face detection before prediction
+Improve face detection preprocessing
 
-✨ Display Grad-CAM heatmaps for explainable AI
+Enhance model accuracy using CNN or Transfer Learning
 
-✨ Add dark/light theme toggle in the UI
+Deploy on cloud (Streamlit Cloud / Hugging Face Spaces)
 
 # 🧑‍💻 Developed By
 
 Shalini Kumari
 📧 shalinikumari8789@gmail.com
 
-💼 LinkedIn
- | 💻 GitHub
-
-# Developed with ❤️ using Streamlit, TensorFlow, and Python.
+💼 LinkedIn - https://www.linkedin.com/in/shalini-kumari-a237b3276/
+ | 💻 GitHub - https://github.com/angel-shalu
