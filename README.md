@@ -16,19 +16,30 @@ You can upload an image or capture one using your webcam — and the app will in
 # ✨ Key Features
 
 ✅ AI-Powered Mood Prediction – Detects “Happy” or “Not Happy” from face images
+
 📷 Dual Input Modes – Upload image or use your camera in real-time
+
 📊 Prediction History – Stores your recent 10 predictions with confidence scores
+
 🖼️ Dataset Gallery – Displays example images from your trainning/ dataset
+
 ⚙️ Model Management – Upload, reload, and verify model weights dynamically
+
 💻 Modern UI – Minimal, clean, and responsive Streamlit interface
 
 
 # 🧩 Tech Stack
+
 Technology	Role
+
 🐍 Python 3.10+	Core programming language
+
 ⚙️ Streamlit	Front-end web framework
+
 🧠 TensorFlow / Keras	Deep learning backend
+
 🖼️ Pillow (PIL)	Image handling and preprocessing
+
 🗂️ pathlib, os	File & directory management
 
 
@@ -90,11 +101,17 @@ Recent predictions are saved for reference in the sidebar.
 
 
 # 🖼️ App Pages
+
 Page	Description
+
 🏠 Home	Welcome screen with app overview
+
 📷 Mood Detection	Upload or capture an image and get predictions
+
 🖼️ Dataset Samples	Browse example training images
+
 ⚙️ Model Info	Manage weights and view model details
+
 
 # 📦 requirements.txt
  Here’s a sample requirements.txt to include:
@@ -131,19 +148,28 @@ trainning/
 🟢 You can add any number of images in each folder for testing or retraining.
 
 # 🔍 Model Information
+
 Property	Description
+
 Model Type	Binary Image Classifier
+
 Classes	Happy, Not Happy
+
 Input	Face or portrait image
+
 Output	Predicted class + confidence score
+
 Threshold	0.5 (binary decision boundary)
 
 
 # 💡 Future Enhancements
 
 ✨ Add support for multi-emotion classification (e.g., sad, angry, surprised)
+
 ✨ Integrate OpenCV face detection before prediction
+
 ✨ Display Grad-CAM heatmaps for explainable AI
+
 ✨ Add dark/light theme toggle in the UI
 
 # 🧑‍💻 Developed By
