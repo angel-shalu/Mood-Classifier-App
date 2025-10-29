@@ -10,7 +10,7 @@ The Mood Classifier App is a sleek Streamlit-based web app that uses Deep Learni
 You can upload an image or capture one using your webcam — and the app will instantly reveal the mood with confidence levels!
 
 
-# 💡 Ideal for emotion-based projects, sentiment analytics, and facial recognition demonstrations.
+💡 Ideal for emotion-based projects, sentiment analytics, and facial recognition demonstrations.
 
 
 # ✨ Key Features
@@ -37,13 +37,21 @@ Technology	Role
 mood-classifier-app/
 │
 ├── app.py                  # 🎯 Main Streamlit application
+
 ├── model.py                # 🧠 Model class (MoodModel)
+
 ├── mood_weights.h5         # ⚙️ Pre-trained model weights
+
 ├── trainning/
+
 │   ├── happy/              # 😀 Happy face images
+
 │   └── not happy/          # 😐 Not happy face images
+
 ├── requirements.txt        # 📦 Project dependencies
+
 └── README.md               # 📝 Documentation
+
 
 # ⚙️ Installation & Setup
 🔹 Step 1: Clone the Repository
@@ -87,24 +95,37 @@ Page	Description
 📷 Mood Detection	Upload or capture an image and get predictions
 🖼️ Dataset Samples	Browse example training images
 ⚙️ Model Info	Manage weights and view model details
-📦 requirements.txt
 
-# Here’s a sample requirements.txt to include:
+# 📦 requirements.txt
+ Here’s a sample requirements.txt to include:
 
 streamlit==1.38.0
+
 Pillow==10.0.0
+
 tensorflow==2.16.1
 
+
 # 🧾 Sample Dataset Layout
+
 trainning/
+
 ├── happy/
+
 │   ├── img1.jpg
+
 │   ├── img2.png
+
 │   └── ...
+
 └── not happy/
+
     ├── img1.jpg
+    
     ├── img2.png
+    
     └── ...
+    
 
 
 🟢 You can add any number of images in each folder for testing or retraining.
