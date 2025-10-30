@@ -184,3 +184,5 @@ Shalini Kumari
 
 💼 LinkedIn - https://www.linkedin.com/in/shalini-kumari-a237b3276/
  | 💻 GitHub - https://github.com/angel-shalu
+ URL FOR THE APP - 
+ https://mood-classifier-app-axdezbynfuhfkbihxam3pv.streamlit.app/
